@@ -1,9 +1,9 @@
-Bitácora de trabajo
-
-29-10-2026
-
-Hoy instalé Git y cloné el repositorio de la Unidad 1 en mi computadora.
-
-Al principio tuve un problema porque intenté ejecutar el comando desde la carpeta System32 y no tenía permisos para crear la carpeta del proyecto. Después cambié a mi carpeta de usuario y pude clonar el repositorio correctamente.
-
-En la siguiente sesión voy a crear la estructura inicial del proyecto y continuar con la organización del repositorio.
+12 de noviembre de 2026 — Taller 1, Fase 1: Planteamiento inicial y configuración
+- **Qué hice:** Creación del repositorio, clonación local, inicialización del módulo Go y creación de `estudiante.go`.
+- Qué problema encontré: 
+  1. Error `expected 'package', found 'EOF'` al intentar ejecutar el código con `go run`.
+  2. Error `failed to push some refs` al intentar subir los cambios a GitHub.
+- **Cómo lo resolví:** 
+  1. Guardé el archivo con `Ctrl+S` para que no estuviera vacío antes de compilar.
+  2. Ejecuté `git pull --no-edit` para sincronizar mi computadora con GitHub antes de hacer el push.
+-
