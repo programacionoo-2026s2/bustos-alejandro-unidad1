@@ -1,4 +1,4 @@
 # 03-tarea4: Conversor de unidades organizado en paquetes
 
 ## Descripción y estructura
-Versión inicial monolítica del conversor de unidades en `main.go` antes de extraer la lógica al paquete interno `internal/almacenamiento`.
+Proyecto dividido en el punto de entrada `main.go` y el paquete interno `internal/almacenamiento`, encargado de las constantes de bytes, validación de unidades y conversión con redondeo.
