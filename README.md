@@ -9,3 +9,4 @@
 - [03-tarea2](./03-tarea2) - Permisos estilo UNIX con iota.
 - [03-tarea3](./03-tarea3) - Conversor de unidades de almacenamiento en Go (Completado).
 - [03-tarea4](./03-tarea4) - Conversor de unidades modularizado con paquete `internal/almacenamiento` (Completado).
+- [03-tarea5](./03-tarea5) - Analizador de subtítulos accesibles en Go (Completado).
