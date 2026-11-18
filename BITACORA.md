@@ -6,4 +6,5 @@
 - **Cómo lo resolví:** 
   1. Guardé el archivo con `Ctrl+S` para que no estuviera vacío antes de compilar.
   2. Ejecuté `git pull --no-edit` para sincronizar mi computadora con GitHub antes de hacer el push.
--
+-## 03-tarea3
+- **Avance 1:** Creación de la carpeta `03-tarea3`, inicialización del módulo `tarea3` y archivo base `main.go`.
