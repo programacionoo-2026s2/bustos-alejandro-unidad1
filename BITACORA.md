@@ -32,3 +32,4 @@ Registro cronológico de avances, dificultades técnicas y soluciones aplicadas 
   ## 03-tarea4 · Modularización con paquetes e `internal/`
 - **Avance 1 (Monolito):** Creación de `03-tarea4`, inicialización del módulo `tarea4` y prueba de referencia en `main.go`. Resultados obtenidos en los 8 casos: `2.00 MB` (0), `1024.00 MB` (0), `1.46 KB` (0), `512.00 KB` (0), error de valor (2), error negativo (2), unidad `TB` inválida (3) y argumentos incompletos (1).
 - **Avance 2 (Paquete interno):** Creación de `internal/almacenamiento/almacenamiento.go` con las constantes exportadas (`B`, `KB`, `MB`, `GB`), funciones exportadas (`Bytes`, `Convertir`) y la función privada `redondear`. Verificado con `go doc ./internal/almacenamiento`.
+- **Avance 3 (Refactorización de `main.go`):** Se importó `"tarea4/internal/almacenamiento"` en `main.go`, delegando la validación de unidades a `almacenamiento.Bytes` y el cálculo a `almacenamiento.Convertir`.
