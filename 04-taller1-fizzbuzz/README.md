@@ -1,0 +1,1 @@
+- [04-taller1-fizzbuzz](./04-taller1-fizzbuzz): Taller FizzBuzz del 1 al 30 con `switch` sin condición y contadores.
