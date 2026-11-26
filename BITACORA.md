@@ -37,3 +37,6 @@ Registro cronológico de avances, dificultades técnicas y soluciones aplicadas 
 ## 03-tarea5 · Analizador de bytes, runas y subtítulos accesibles
 - **Desarrollo:** Creación de `03-tarea5` con módulo `tarea5` y programa `main.go` que recorre cadenas UTF-8 con `range`, clasifica caracteres con `unicode` y `unicode/utf8`, cuenta palabras mediante la bandera `enPalabra` y valida el límite de 42 runas con constantes de salida (`ErrUso = 1`, `ErrVacio = 2`, `ErrLimite = 3`).
 - **Error encontrado y solución:** Al ejecutar el caso sin comillas (`analizar hola mundo`), PowerShell dividió el texto en argumentos separados (`len(os.Args) == 3`) devolviendo el código `1` (`ErrUso`), comprobando la necesidad de encerrar el texto entre comillas. Además, para evitar el bloqueo de Control de aplicaciones de Windows sobre ejecutables locales en carpetas de usuario, se compiló temporalmente en `C:\ProgramData\analizar.exe` para verificar los 8 casos y revisar `$LASTEXITCODE`.
+
+## 05-taller1 · Función variádica, resultados con nombre y error centinela
+- **Avance 1:** Creación de `05-taller1`, inicialización del módulo `taller1`, declaración de `ErrSinDatos` y firma de `estadisticas` manejando `len(nums) == 0`.
