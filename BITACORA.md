@@ -40,3 +40,4 @@ Registro cronológico de avances, dificultades técnicas y soluciones aplicadas 
 
 ## 05-taller1 · Función variádica, resultados con nombre y error centinela
 - **Avance 1:** Creación de `05-taller1`, inicialización del módulo `taller1`, declaración de `ErrSinDatos` y firma de `estadisticas` manejando `len(nums) == 0`.
+- **Avance 2 y aprendizaje:** Implementación del cálculo con `min`, `max` y conversión `float64(len(nums))`, llamada con slice mediante el operador `notas...` y comprobación con `errors.Is(err, ErrSinDatos)`. Se verificó que nombrar las variables de retorno como `menor` y `mayor` evita tapar las funciones integradas `min` y `max` de Go.

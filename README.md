@@ -11,4 +11,4 @@
 - [03-tarea4](./03-tarea4) - Conversor de unidades modularizado con paquete `internal/almacenamiento` (Completado).
 - [03-tarea5](./03-tarea5) - Analizador de subtítulos accesibles en Go (Completado).
 
-- [05-taller1](./05-taller1) - Estadísticas de calificaciones con función variádica y error centinela (Paso 1: firma y error centinela).
+- [05-taller1](./05-taller1) - Estadísticas de calificaciones con función variádica y error centinela (Completado).
